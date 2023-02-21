@@ -5,3 +5,5 @@ This model distinguishes between spam and ham messages. the model first does nec
 (Term Frequency: (Number of repitition of words in a sentence)/(Number of words) | Inverse Document Frequency: log((Number of Sentences)/(Number of Sentences containing that word))
 
 Now this matrix is used to split training and test data. Now, to avoid unbalanced data, we are creating artificial data using SMOTE.
+
+Then XGBoost, Naive Bayes, SVC, Decision Tree, Random Forest, Logistic Regression models are tested to find the model with highest accuracy.
