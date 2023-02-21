@@ -1,6 +1,6 @@
 # Spam_Detection_tfidfVectorizer_allModels
 
-This model distinguishes between spam and ham messages. the model first does necessary pre-processing on the text messages in the data, that is, removing special characters, single characters, lemmatizing the words using stopwords. Then using TFIDF Vectorizer, the processed text data is used to form a matrix of TF-IDF features.
+This model distinguishes between spam and ham messages. The model first does necessary pre-processing on the text messages in the data, that is, removing special characters, single characters, lemmatizing the words using stopwords. Then using TFIDF Vectorizer, the processed text data is used to form a matrix of TF-IDF features.
 
 (Term Frequency: (Number of repitition of words in a sentence)/(Number of words) | Inverse Document Frequency: log((Number of Sentences)/(Number of Sentences containing that word))
 
